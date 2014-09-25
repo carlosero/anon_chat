@@ -1,4 +1,5 @@
 class ChatsController < ApplicationController
+  before_filter { Chat.anons.expired.destroy_all } # destroy all anonymous chats
   before_action :set_chat, only: [:show, :edit, :update, :destroy]
 
   # GET /chats
