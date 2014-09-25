@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 
+  name: MyString
+  chat_type: common
+  password: 
+  last_activity: 2014-09-24 18:11:23
+
+two:
+  user_id: 
+  name: MyString
+  chat_type: anon
+  password: 
+  last_activity: 2014-09-24 18:11:23

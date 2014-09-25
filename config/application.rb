@@ -21,3 +21,5 @@ module AnonChat
     # config.i18n.default_locale = :de
   end
 end
+
+PASSWORD_SALT = "$2a$10$pSARHCcnqa3nRX4xnFEAje"
