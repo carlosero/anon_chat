@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(version: 20140925012743) do
 
   add_index "chats", ["user_id"], name: "index_chats_on_user_id"
 
-  create_table "members", id: false, force: true do |t|
+  create_table "members", force: true do |t|
     t.integer  "user_id"
     t.integer  "chat_id"
     t.datetime "created_at"
